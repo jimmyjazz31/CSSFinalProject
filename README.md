@@ -1,4 +1,4 @@
-# CSSFinalProject
+# CS665 FinalProject (correct title!)
 Final Project with Design Patterns, ie Creational and Structural etc. 
 
 ### Creational Patterns : for this project I have used the following 2 creation design patterns: 
