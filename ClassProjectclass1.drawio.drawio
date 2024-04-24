@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T11:20:44.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="C7W_7bdrnJ5KCRc4jBrM" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T11:23:40.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="U-o0YIY4xnBMkRq5D1A2" version="24.2.8" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1434" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -176,13 +176,13 @@
           <mxGeometry y="26" width="160" height="54" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-34" value="Portfolio" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="370" y="-70" width="160" height="83" as="geometry" />
+          <mxGeometry x="370" y="-70" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-35" value="getPortfolioInstance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-34" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-36" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-34" vertex="1">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        <mxCell id="inNRkUqRKJysrVRkoHUD-36" value="createInvestor();&lt;div&gt;switch portfolioType&lt;/div&gt;&lt;div&gt;createportfolioTypes();&lt;/div&gt;&lt;div&gt;printout: philosophy, description, format&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-34" vertex="1">
+          <mxGeometry y="52" width="160" height="108" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-37" value="method: get(Adviser();&lt;div&gt;method: amountInvested();&lt;div&gt;method: getRiskProfile();&lt;/div&gt;&lt;div&gt;method: waitList();&lt;/div&gt;&lt;div&gt;method:&amp;nbsp; assignPortfolio();&lt;/div&gt;&lt;div&gt;method: payFees();&lt;/div&gt;&lt;/div&gt;&lt;div&gt;method: notify();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="-218" width="170" height="130" as="geometry" />
@@ -218,7 +218,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-50" value="BuildPortfolio" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="295" y="540" width="170" height="384" as="geometry" />
+          <mxGeometry x="295" y="540" width="170" height="414" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-51" value="+ field: globalShares" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -236,13 +236,13 @@
           <mxGeometry y="130" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-56" value="+ field: bonds&lt;div&gt;+field:&amp;nbsp; ETF&lt;/div&gt;&lt;div&gt;+ field: shares&lt;/div&gt;&lt;div&gt;output:&amp;nbsp; HTML description, format&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
-          <mxGeometry y="180" width="170" height="70" as="geometry" />
+          <mxGeometry y="180" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8MR_1oV0FiVuXoiKOzE8-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="inNRkUqRKJysrVRkoHUD-50">
-          <mxGeometry y="250" width="170" height="126" as="geometry" />
+          <mxGeometry y="280" width="170" height="126" as="geometry" />
         </mxCell>
         <mxCell id="8MR_1oV0FiVuXoiKOzE8-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="inNRkUqRKJysrVRkoHUD-50">
-          <mxGeometry y="376" width="170" height="8" as="geometry" />
+          <mxGeometry y="406" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-57" value="method: blendAssets();&lt;div&gt;method: setRiskProfile();&lt;/div&gt;&lt;div&gt;method: addInvestment();&lt;/div&gt;&lt;div&gt;method: removeInvestment();&lt;/div&gt;&lt;div&gt;method:&amp;nbsp; placeInvestments();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="672" width="170" height="110" as="geometry" />
