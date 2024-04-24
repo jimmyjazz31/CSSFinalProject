@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T11:06:00.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2nsQMfRweIgAytQZ3BTq" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T11:16:00.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="i766ESXDhphnoQt-QIvC" version="24.2.8" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1434" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry y="78" width="160" height="92" as="geometry" />
         </mxCell>
         <mxCell id="17acba5748e5396b-30" value="InvestorStatus&amp;nbsp;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="640" y="313" width="180" height="117" as="geometry" />
+          <mxGeometry x="635" y="-60" width="180" height="117" as="geometry" />
         </mxCell>
         <mxCell id="17acba5748e5396b-31" value="+ field: InvestmentCommittee" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17acba5748e5396b-30" vertex="1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -55,11 +55,11 @@
         <mxCell id="5d2195bd80daf111-7" value="+ field: Age&lt;div&gt;+ fiield: PortfolioType&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d2195bd80daf111-5" vertex="1">
           <mxGeometry y="52" width="170" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="5d2195bd80daf111-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" edge="1">
+        <mxCell id="5d2195bd80daf111-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.475;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="inNRkUqRKJysrVRkoHUD-63" source="inNRkUqRKJysrVRkoHUD-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="545" y="970" />
-              <mxPoint x="545" y="970" />
+              <mxPoint x="170" y="520" />
+              <mxPoint x="170" y="501" />
             </Array>
             <mxPoint x="545" y="963" as="sourcePoint" />
             <mxPoint x="545" y="1004" as="targetPoint" />
@@ -102,22 +102,6 @@
             <mxPoint x="450" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5d2195bd80daf111-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" source="inNRkUqRKJysrVRkoHUD-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="520" as="sourcePoint" />
-            <mxPoint x="380" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5d2195bd80daf111-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="580" />
-              <mxPoint x="300" y="642" />
-            </Array>
-            <mxPoint x="250" y="580" as="sourcePoint" />
-            <mxPoint x="350" y="642" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-2" value="(enum) PortfolioType" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
           <mxGeometry x="95" y="130" width="160" height="93" as="geometry" />
         </mxCell>
@@ -146,8 +130,8 @@
         <mxCell id="5d2195bd80daf111-4" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d2195bd80daf111-1" vertex="1">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-11" value="Notify" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="310" y="672" width="160" height="138" as="geometry" />
+        <mxCell id="inNRkUqRKJysrVRkoHUD-11" value="Account" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="645" y="90" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-12" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-11" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -185,7 +169,7 @@
         <mxCell id="inNRkUqRKJysrVRkoHUD-24" value="+ field: PartTimeStaff&lt;div&gt;+ staffID&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-21" vertex="1">
           <mxGeometry y="78" width="160" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-25" value="CoreInvestments" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+        <mxCell id="inNRkUqRKJysrVRkoHUD-25" value="WithdrawalTransaction" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="358" width="160" height="82" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-26" value="+ field: types...may be 4 maximum" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-25" vertex="1">
@@ -206,24 +190,11 @@
         <mxCell id="inNRkUqRKJysrVRkoHUD-38" value="method:&amp;nbsp; notify();&lt;div&gt;method: rebalance();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="95" y="-40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" target="inNRkUqRKJysrVRkoHUD-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="250" y="560" as="sourcePoint" />
-            <mxPoint x="720" y="493" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-40" value="method: chooseInvestment();&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="inNRkUqRKJysrVRkoHUD-40" value="method: setDescription();&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print:&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="440" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" target="inNRkUqRKJysrVRkoHUD-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="520" as="sourcePoint" />
-            <mxPoint x="380" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-28" value="SatteliteInvestments" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="300" y="510" width="160" height="134" as="geometry" />
+          <mxGeometry x="80" y="538" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-29" value="+ field: types may be 6 maximum" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-28" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -247,31 +218,31 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-50" value="BuildPortfolio" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="85" y="590" width="170" height="210" as="geometry" />
+          <mxGeometry x="295" y="540" width="170" height="274" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-51" value="+ field: miningSector" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
+        <mxCell id="inNRkUqRKJysrVRkoHUD-51" value="+ field: globalShares" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-52" value="+ field: consumerSector" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
+        <mxCell id="inNRkUqRKJysrVRkoHUD-52" value="+ field: globalBonds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
           <mxGeometry y="52" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-53" value="+ field: financeSector" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
+        <mxCell id="inNRkUqRKJysrVRkoHUD-53" value="+ field: domesticBonds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
           <mxGeometry y="78" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-54" value="+ field: materialsSector" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
           <mxGeometry y="104" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-55" value="+ field: infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
-          <mxGeometry y="130" width="170" height="26" as="geometry" />
+        <mxCell id="inNRkUqRKJysrVRkoHUD-55" value="+ field: financials sector, and a few other sectors" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
+          <mxGeometry y="130" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-56" value="+ field: bonds&lt;div&gt;+field:&amp;nbsp; ETF&lt;/div&gt;&lt;div&gt;+ field: shares&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-50" vertex="1">
-          <mxGeometry y="156" width="170" height="54" as="geometry" />
+          <mxGeometry y="180" width="170" height="94" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-57" value="method: blendAssets();&lt;div&gt;method: setRiskProfile();&lt;/div&gt;&lt;div&gt;method: addInvestment();&lt;/div&gt;&lt;div&gt;method: removeInvestment();&lt;/div&gt;&lt;div&gt;method:&amp;nbsp; placeInvestments();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="85" y="800" width="170" height="110" as="geometry" />
+          <mxGeometry x="80" y="672" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-58" value="FirstRebalance" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="310" y="820" width="160" height="83" as="geometry" />
+        <mxCell id="inNRkUqRKJysrVRkoHUD-58" value="AvailableHoldings" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="90" y="310" width="160" height="83" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-59" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-58" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -279,8 +250,8 @@
         <mxCell id="inNRkUqRKJysrVRkoHUD-60" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-58" vertex="1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="inNRkUqRKJysrVRkoHUD-61" value="SecondRebalance" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="480" y="820" width="160" height="83" as="geometry" />
+        <mxCell id="inNRkUqRKJysrVRkoHUD-61" value="DefaultAvailableHoldings" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="85" y="418" width="160" height="83" as="geometry" />
         </mxCell>
         <mxCell id="inNRkUqRKJysrVRkoHUD-62" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="inNRkUqRKJysrVRkoHUD-61" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -323,9 +294,6 @@
             <mxPoint x="400" y="420" as="sourcePoint" />
             <mxPoint x="640" y="127" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="8MR_1oV0FiVuXoiKOzE8-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="380" y="260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8MR_1oV0FiVuXoiKOzE8-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="20" y="-324" width="40" height="40" as="geometry" />
